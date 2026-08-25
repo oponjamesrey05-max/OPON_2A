@@ -11,7 +11,14 @@ public static void main(String[] args){
     System.out.print("Enter Selection: ");
     int select = sc.nextInt();
 
+        if(select == 1 ){
+            Activity1 act1 = new Activity1();
+            act1.greetUser();
+        }else if (select == 2 ){
 
+        }else{
+            System.out.println("Selection not Found");
+        }
 
 
 
